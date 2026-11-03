@@ -1,0 +1,229 @@
+{
+  "filters": [
+    {
+      "id": "4k",
+      "groupId": "resolution",
+      "name": "4K",
+      "pattern": "(?i)\\b(4k|2160p|uhd)\\b",
+      "imageURL": "https://img.shields.io/badge/4K-ULTRA_HD-gold",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFFFD700"
+    },
+    {
+      "id": "1080p",
+      "groupId": "resolution",
+      "name": "1080p",
+      "pattern": "(?i)\\b1080p\\b",
+      "imageURL": "https://img.shields.io/badge/1080p-FULL_HD-yellow",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFFFD700"
+    },
+    {
+      "id": "720p",
+      "groupId": "resolution",
+      "name": "720p",
+      "pattern": "(?i)\\b720p\\b",
+      "imageURL": "https://img.shields.io/badge/720p-HD-blue",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF2196F3"
+    },
+    {
+      "id": "imax-enhanced",
+      "groupId": "edition",
+      "name": "IMAX Enhanced",
+      "pattern": "(?i)imax enhanced",
+      "imageURL": "https://img.shields.io/badge/IMAX-ENHANCED-purple",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF9C27B0"
+    },
+    {
+      "id": "imax",
+      "groupId": "edition",
+      "name": "IMAX",
+      "pattern": "(?i)\\bimax\\b",
+      "imageURL": "https://img.shields.io/badge/IMAX-EXPERIENCE-purple",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF9C27B0"
+    },
+    {
+      "id": "dolby-vision",
+      "groupId": "visual",
+      "name": "Dolby Vision",
+      "pattern": "(?i)dolby.?vision|\\bDV\\b",
+      "imageURL": "https://img.shields.io/badge/DOLBY-VISION-purple",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF9C27B0"
+    },
+    {
+      "id": "hdr10plus",
+      "groupId": "visual",
+      "name": "HDR10+",
+      "pattern": "(?i)hdr10\\+",
+      "imageURL": "https://img.shields.io/badge/HDR10%2B-VIDEO-orange",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFFF9800"
+    },
+    {
+      "id": "hdr",
+      "groupId": "visual",
+      "name": "HDR",
+      "pattern": "(?i)\\bHDR\\b",
+      "imageURL": "https://img.shields.io/badge/HDR-VIDEO-orange",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFFF9800"
+    },
+    {
+      "id": "atmos",
+      "groupId": "audio",
+      "name": "Dolby Atmos",
+      "pattern": "(?i)atmos",
+      "imageURL": "https://img.shields.io/badge/DOLBY-ATMOS-black",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFFFFFFF"
+    },
+    {
+      "id": "audio-71",
+      "groupId": "channels",
+      "name": "7.1",
+      "pattern": "(?i)7\\.1",
+      "imageURL": "https://img.shields.io/badge/AUDIO-7.1-blue",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF2196F3"
+    },
+    {
+      "id": "audio-51",
+      "groupId": "channels",
+      "name": "5.1",
+      "pattern": "(?i)5\\.1",
+      "imageURL": "https://img.shields.io/badge/AUDIO-5.1-blue",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF2196F3"
+    },
+    {
+      "id": "hindi",
+      "groupId": "language",
+      "name": "Hindi",
+      "pattern": "(?i)\\bHindi\\b",
+      "imageURL": "https://img.shields.io/badge/AUDIO-HINDI-orange",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFFF9800"
+    },
+    {
+      "id": "multi-audio",
+      "groupId": "language",
+      "name": "Multi Audio",
+      "pattern": "(?i)multi.?audio|dual.?audio",
+      "imageURL": "https://img.shields.io/badge/MULTI-AUDIO-green",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF4CAF50"
+    },
+    {
+      "id": "netflix",
+      "groupId": "platform",
+      "name": "Netflix",
+      "pattern": "(?i)netflix",
+      "imageURL": "https://img.shields.io/badge/NETFLIX-STREAM-red",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFE50914"
+    },
+    {
+      "id": "prime",
+      "groupId": "platform",
+      "name": "Prime Video",
+      "pattern": "(?i)prime.?video|amazon",
+      "imageURL": "https://img.shields.io/badge/PRIME-VIDEO-blue",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF2196F3"
+    },
+    {
+      "id": "apple-tv",
+      "groupId": "platform",
+      "name": "Apple TV+",
+      "pattern": "(?i)apple.?tv",
+      "imageURL": "https://img.shields.io/badge/APPLE-TV%2B-black",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFFFFFFF"
+    },
+    {
+      "id": "hbo",
+      "groupId": "platform",
+      "name": "HBO Max",
+      "pattern": "(?i)hbo.?max",
+      "imageURL": "https://img.shields.io/badge/HBO-MAX-purple",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF9C27B0"
+    },
+    {
+      "id": "sonyliv",
+      "groupId": "platform",
+      "name": "SonyLIV",
+      "pattern": "(?i)sonyliv",
+      "imageURL": "https://img.shields.io/badge/SONY-LIV-blue",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF2196F3"
+    },
+    {
+      "id": "zee5",
+      "groupId": "platform",
+      "name": "ZEE5",
+      "pattern": "(?i)zee5",
+      "imageURL": "https://img.shields.io/badge/ZEE-5-purple",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF9C27B0"
+    },
+    {
+      "id": "jiohotstar",
+      "groupId": "platform",
+      "name": "JioHotstar",
+      "pattern": "(?i)jio.?hotstar|hotstar",
+      "imageURL": "https://img.shields.io/badge/JIO-HOTSTAR-blue",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF2196F3"
+    },
+    {
+      "id": "remux",
+      "groupId": "source",
+      "name": "REMUX",
+      "pattern": "(?i)remux",
+      "imageURL": "https://img.shields.io/badge/REMUX-PREMIUM-gold",
+      "tagColor": "#FF202020",
+      "borderColor": "#FFFFD700"
+    },
+    {
+      "id": "webdl",
+      "groupId": "source",
+      "name": "WEB-DL",
+      "pattern": "(?i)web.?dl",
+      "imageURL": "https://img.shields.io/badge/WEB-DL-green",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF4CAF50"
+    },
+    {
+      "id": "bluray",
+      "groupId": "source",
+      "name": "BluRay",
+      "pattern": "(?i)blu.?ray",
+      "imageURL": "https://img.shields.io/badge/BLURAY-DISC-blue",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF2196F3"
+    },
+    {
+      "id": "hevc",
+      "groupId": "codec",
+      "name": "HEVC H.265",
+      "pattern": "(?i)hevc|h\\.265|x265",
+      "imageURL": "https://img.shields.io/badge/HEVC-H.265-green",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF4CAF50"
+    },
+    {
+      "id": "h266",
+      "groupId": "codec",
+      "name": "H.266",
+      "pattern": "(?i)h\\.266|vvc",
+      "imageURL": "https://img.shields.io/badge/H.266-VVC-green",
+      "tagColor": "#FF202020",
+      "borderColor": "#FF4CAF50"
+    }
+  ]
+}
